@@ -3,5 +3,8 @@ rvm:
   - 2.2
   - 2.3
 
+before_install:
+  -npm install -g gulp-cli
+
 install: npm install && bundle install
-script: npm test
+script: gulp build && npm test
