@@ -1,10 +1,8 @@
 language: node_js
 node_js: 7.7.1
-rvm:
-  - 2.3
 
 before_install:
-  - npm install -g gulp-cli && gem install activesupport
+  - npm install -g gulp-cli && rvm install 2.3.1
 
 install: npm install && bundle install
 script: gulp build && npm test
