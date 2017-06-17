@@ -2,5 +2,9 @@ AllCops:
   Exclude:
     - 'node_modules/**/*'
 
+Lint/ScriptPermission:
+  Exclude:
+    - 'bin/*'
+
 Layout/EndOfLine:
   EnforcedStyle: lf
