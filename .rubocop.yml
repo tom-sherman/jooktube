@@ -1,2 +1,6 @@
+AllCops:
+  Exclude:
+    - 'node_modules/**/*'
+
 Layout/EndOfLine:
   EnforcedStyle: lf

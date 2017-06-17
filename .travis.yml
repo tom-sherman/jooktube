@@ -2,7 +2,7 @@ language: node_js
 node_js: 7.7.1
 
 before_install:
-  - npm install -g gulp-cli && rvm install 2.3.1
+  - npm install -g gulp-cli standard && rvm install 2.3.1
 
 install: npm install && bundle install
 script: gulp build && npm test
