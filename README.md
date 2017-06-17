@@ -1,4 +1,7 @@
 # Jooktube
+
+[![Build Status](https://travis-ci.org/tom-sherman/jooktube.svg?branch=master)](https://travis-ci.org/tom-sherman/jooktube)
+
 A real-time playlist engine, built for collaboration.
 
 This repository houses the entire web app and API.
