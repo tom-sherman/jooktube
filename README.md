@@ -82,3 +82,5 @@ end
 
 # Credits
 Front end build pipeline forked from [`gulp-rails-pipeline`](https://github.com/vigetlabs/gulp-rails-pipeline)
+
+`CONTRIBUTING.md` heavily based on [Node.js' contributions guide](https://github.com/nodejs/node/blob/24e5b6714884ed317f04763758ed0785917f2e92/CONTRIBUTING.md).
